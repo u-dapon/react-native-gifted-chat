@@ -291,18 +291,18 @@ function GiftedChat<TMessage extends IMessage = IMessage> (
   const insets = useSafeAreaInsets()
   const keyboardOffsetBottom = useSharedValue(0)
 
-  const KEYBOARD_HEIGHT_THRESHOLD = 600;
+  const KEYBOARD_HEIGHT_THRESHOLD = 600
 
   const contentStyleAnim = useAnimatedStyle(
     () => {
-      const keyboardHeight = keyboard.height.value;
-      const adjustedKeyboardHeight = keyboardHeight > KEYBOARD_HEIGHT_THRESHOLD ? 0 : keyboardHeight;
+      const keyboardHeight = keyboard.height.value
+      const adjustedKeyboardHeight = keyboardHeight > KEYBOARD_HEIGHT_THRESHOLD ? 0 : keyboardHeight
 
       return {
         transform: [
           { translateY: -adjustedKeyboardHeight + keyboardOffsetBottom.value },
         ],
-      };
+      }
     },
     [keyboard, keyboardOffsetBottom]
   )

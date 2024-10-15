@@ -1,5 +1,5 @@
 {
-  "name": "react-native-gifted-chat",
+  "name": "@u-dapon/react-native-gifted-chat",
   "version": "2.6.4",
   "description": "The most complete chat UI for React Native",
   "keywords": [
@@ -12,16 +12,16 @@
     "message",
     "chat"
   ],
-  "homepage": "https://github.com/FaridSafi/react-native-gifted-chat#readme",
+  "homepage": "https://github.com/u-dapon/react-native-gifted-chat#readme",
   "bugs": {
-    "url": "https://github.com/FaridSafi/react-native-gifted-chat/issues"
+    "url": "https://github.com/u-dapon/react-native-gifted-chat/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FaridSafi/react-native-gifted-chat.git"
+    "url": "git+https://github.com/u-dapon/react-native-gifted-chat.git"
   },
   "license": "MIT",
-  "author": "Farid Safi",
+  "author": "u-dapon",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -92,7 +92,7 @@
     "jest": "^29.7.0",
     "json": "^11.0.0",
     "lint-staged": "^15.2.9",
-    "react": "^18.3.1",
+    "react": "18.2.0",
     "react-dom": "^18.3.1",
     "react-native": "^0.74.5",
     "react-native-get-random-values": "^1.11.0",
